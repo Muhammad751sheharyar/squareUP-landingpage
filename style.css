@@ -1,0 +1,160 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+.main {
+  width: 100%;
+  background-color: #191919;
+}
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px 162px;
+  border-bottom: 1px solid #212121;
+}
+.header .logo {
+  width: 20%;
+}
+.header .navItems {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  align-items: center;
+}
+.header .navItems ul {
+  
+  display: flex;
+  color: white;
+  gap: 30px;
+  font-size: 18px;
+  font-family: Barlow, sans-serif;
+  font-weight: 500;
+  list-style: none;
+}
+.header .navItems ul li:hover {
+  background-color: #262626;
+  border-radius: 8px;
+  padding:0px px;
+}
+.header .navItems button {
+  /* width: 135px;
+    height: 39px; */
+  background-color: #9eff00;
+  border-radius: 8px;
+  font-weight: 500;
+  border-width: 0px;
+  padding: 16px 24px;
+}
+
+/* Hero section */
+.heroSection {
+  height: 100vh;
+  width: 90%;
+  background-color: #000000;;
+  background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
+  margin: 0% auto;
+}
+.heroImage {
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  background-image: url(./assets/Abstract\ Design.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.heroHeading h1{
+
+  text-align: center;
+padding-top:112px ;
+  width:60% ;
+    color: white;
+    font-size: 68px;
+    margin: 0% auto;
+
+}
+.herolistItem{
+  background-color: #1b1b1b;
+  margin: 0% auto;
+border: 1px solid  ;
+border-radius: 12px;
+   width: 60%;
+   padding: 24px 40px;
+  color: white;
+}
+.herolistItem ul{
+  font-size: 22px;
+  gap: 15px;
+  display: flex;
+  color: white;
+  list-style: none;
+}
+.herolistItem ul li {
+  height: 30px;
+
+}
+.herolinks:hover{
+  border-radius: 10px;
+  /* border: 1px solid white; */
+  background-color: #262626;
+  
+}
+
+.heroButtons{
+  
+width: 23%;
+  /* background-color: green; */
+  margin: 0% auto;
+}
+.heroButtons table tr td{
+  /* background-color: green; */
+  width: 50%;
+}
+.heroButtons button{
+  font-family: Barlow, sans-serif;
+  font-weight: 500px;
+  font-size: 18px;
+  border-radius: 10px;
+  height: 58px;
+  width: 137px;
+  margin: 0% auto;
+}
+.btn1 {
+  background-color:#9eff00;
+}
+.btn2 {
+  color: white;
+  background-color:  #1b1b1b;
+}
+
+
+
+/* logo Section */
+
+
+.logoSection{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height: 100px;
+  width: 100%;
+  background-color:  #1b1b1b;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.overServices{
+  height: 300px;
+  width: 100%;
+  background-color: #9eff00;
+  /* padding: 120px 300px; */
+}
+.overServicesImage{
+  height: 300px;
+  background-image: url(./assets/c7ebad33803f8f8ae86511ade1c7c6a1dcff385f\ \(1\).png);
+}
