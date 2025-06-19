@@ -140,8 +140,8 @@ width: 23%;
 .logoSection{
   padding-top: 40px;
   padding-bottom: 40px;
-  height: 100px;
-  width: 100%;
+  /* height: 100px; */
+  /* width: 100%; */
   background-color:  #1b1b1b;
   display: flex;
   justify-content: space-evenly;
@@ -149,12 +149,114 @@ width: 23%;
 
 
 .overServices{
-  height: 300px;
-  width: 100%;
-  background-color: #9eff00;
-  /* padding: 120px 300px; */
+ padding: 120px 300px; 
+  /* height: 300px; */
+  /* width: 100%; */
+  background-color: black;
+  color: white;
+
 }
 .overServicesImage{
-  height: 300px;
-  background-image: url(./assets/c7ebad33803f8f8ae86511ade1c7c6a1dcff385f\ \(1\).png);
+  /* height: 300px; */
+  /* background-image: url(./assets/c7ebad33803f8f8ae86511ade1c7c6a1dcff385f\ \(1\).png); */
+}
+
+
+
+.overserviseHeading{
+  width: 80%;
+  /* background-color: red; */
+  text-align: center;
+  margin: 0% auto;
+  font-size: 48px;
+  font-family: Barlow,serif;
+}
+.overserviseParagraph{
+  width: 120%;
+  margin: 0% auto;
+  font-size: 18px;
+}
+
+
+
+
+
+
+
+
+/* cards */
+
+
+
+.cardsMain{
+
+  /* padding: 50px; */
+  height: 400px;
+  width: 100%;
+  background-color: #191919;
+  border: 1px solid white;
+  
+  display: flex;
+}
+.card{
+  /* height: 400px; */
+  /* width: 33%; */
+  padding: 40px 50px;
+  /* padding-top: 50px; */
+  background-color: #191919;
+  color: white;
+}
+.cardPara1,.cardPara2,.cardPara3 {
+  padding-top: 25px;
+
+}
+.cardButton1 button{
+  margin-top: 70px;
+  height: 60px;
+  width: 100%;
+  background-color: #262626;
+  color: white;
+  border-radius: 8px;
+  
+}
+.cardHeading{
+  font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+.choseSquareup{
+ padding: 120px 190px; 
+  /* height: 300px; */
+  /* width: 100%; */
+  background-color: black;
+  color: white;
+
+}
+.choseSquareupImage{
+  /* height: 300px; */
+  /* background-image: url(./assets/c7ebad33803f8f8ae86511ade1c7c6a1dcff385f\ \(1\).png); */
+}
+
+
+
+.choseHeading{
+  width: auto;
+  /* background-color: red; */
+  text-align: center;
+  margin: 0% auto;
+  font-size: 48px;
+  font-family: Barlow,serif;
+}
+.choseParagraph{
+  /* background-color: red; */
+  width: 120%;
+  margin: 0% auto;
+  font-size: 18px;
 }
